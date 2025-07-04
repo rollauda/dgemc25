@@ -6,24 +6,19 @@ import Link from '@docusaurus/Link';
 const FeatureList = [
   {
     title: 'Leçons',
-    Svg: require('@site/static/img/philo.svg').default,
+    Svg: require('@site/static/img/justice.svg').default,
     to: '/docs/L0/accueil',
   },
   {
-    title: 'Méthode',
-    Svg: require('@site/static/img/method.svg').default,
-    to: '/methode/intro',
-  },
-  {
-    title: 'Manuel',
-    Svg: require('@site/static/img/manuel.svg').default,
-    to: '/manuel/intro',
+    title: 'Activités',
+    Svg: require('@site/static/img/event.svg').default,
+    to: '/activites/intro',
   },
 ];
 
 function Feature({Svg, title, description, to}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--5')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>

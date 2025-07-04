@@ -13,7 +13,7 @@
   --ifm-color-primary-light: #ffab36;
   --ifm-color-primary-lighter: #ffb144;
   --ifm-color-primary-lightest: #ffc26e;
-  --ifm-background-color: #ededed59;
+  --ifm-background-color: rgb(219, 230, 249);
   --ifm-code-font-size: 95%;
   --ifm-navbar-height: 50px;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
@@ -22,9 +22,16 @@
   --ifm-font-size-small: 14px;   /* par défaut ~14px */
 }
 
+/* Limiter la largeur de l'encart tip sur toutes les pages */
+.theme-admonition {
+  max-width: 900px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 /* cible la balise <footer> générée par Docusaurus */
 .footer {
-  background-color: #e9e9e9fb !important;
+  background-color: #cbdcf6 !important;
   padding-top: 0.5rem !important;
   padding-bottom: 0.5rem !important;
 }
@@ -44,7 +51,7 @@
 .theme-layout-navbar,
 .navbar,
 .navbar__inner {
-  background-color: #edededfb !important;
+  background-color: #cbdcf6 !important;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */

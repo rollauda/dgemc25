@@ -10,20 +10,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Philosophie Tronc Commun',
+  title: 'DGEMC',
   tagline: 'Rolland Auda, La Condamine, Quito, 2025-2026',
-  favicon: 'img/philo.svg',
+  favicon: 'img/droit.svg',
 
   // Set the production url of your site here
   url: 'https://profauda.fr',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/phil25/',
+  baseUrl: '/dgemc25/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'rollauda', // Usually your GitHub org/user name.
-  projectName: 'phil25', // Usually your repo name.
+  projectName: 'dgemc25', // Usually your repo name.
   trailingSlash: false, 
 
   onBrokenLinks: 'throw',
@@ -77,18 +77,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'manuel',
-        path: 'manuel',
-        routeBasePath: 'manuel',
-        sidebarPath: require.resolve('./sidebars.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'methode',
-        path: 'methode',
-        routeBasePath: 'methode',
+        id: 'activites',
+        path: 'activites',
+        routeBasePath: 'activites',
         sidebarPath: require.resolve('./sidebars.js'),
       },
     ],
@@ -100,10 +91,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'philoconda',
+        title: 'dgemc-conda',
         logo: {
-          alt: 'philo',
-          src: 'img/philosophy.svg',
+          alt: 'dgemc',
+          src: 'img/justice.svg',
         },
         items: [
           {
@@ -114,16 +105,10 @@ const config = {
             docsPluginId: 'docs',
           },
           {
-            to: '/methode/intro', // Pointe vers le fichier intro.md
-            label: 'Méthode', 
+            to: '/activites/intro', // Pointe vers le fichier intro.md
+            label: 'Activités', 
             position: 'left',
-            activeBaseRegex: `/methode/`, // Pour mettre en surbrillance l'élément actif
-          },
-          {
-            to: '/manuel/intro', // Pointe vers le fichier intro.md
-            label: 'Manuel', 
-            position: 'left',
-            activeBaseRegex: `/manuel/`, // Pour mettre en surbrillance l'élément actif
+            activeBaseRegex: `/activites/`, // Pour mettre en surbrillance l'élément actif
           },
           {
             href: 'https://www.profauda.fr/',
