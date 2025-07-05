@@ -129,3 +129,8 @@ import TabItem from '@theme/TabItem';
 
 :::
 
+## Différences jekyll / docusaurus
+
+### enlever les {:target="_blank" }
+Par défaut, Docusaurus ouvre automatiquement les liens externes dans un nouvel onglet, donc tu n'as pas besoin de spécifier target="_blank".
+
