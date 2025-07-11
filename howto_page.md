@@ -114,14 +114,17 @@ import TabItem from '@theme/TabItem';
 
 #### Exercice
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 :::tip[EXERCICE]
 
 <Tabs>
-  <TabItem value="question" label="Question" default>
+  <TabItem value="question" label="Question ❓" default>
     1. Il faut
     2. Et il faut
   </TabItem>
-  <TabItem value="solution" label="Réponse">
+  <TabItem value="solution" label="Réponse ✅">
     1. Il fallait
     2. Et il fallait
   </TabItem>
@@ -133,4 +136,10 @@ import TabItem from '@theme/TabItem';
 
 ### enlever les {:target="_blank" }
 Par défaut, Docusaurus ouvre automatiquement les liens externes dans un nouvel onglet, donc tu n'as pas besoin de spécifier target="_blank".
+
+### Images dans tableau
+
+``md
+<div style={{textAlign: 'center', minWidth: '250px'}}><a href={useBaseUrl('/img/dgemc/antigone.png')} target="_blank" rel="noopener noreferrer"><img src={useBaseUrl('/img/dgemc/antigone.png')} alt="Image"/></a></div>
+```
 

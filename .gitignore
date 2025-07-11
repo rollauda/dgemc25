@@ -3,6 +3,7 @@ build/
 node_modules/
 /archives
 bak/
+scripts-arch/
 howto.md
 howto-general.md
 howto-clonage-site.md
