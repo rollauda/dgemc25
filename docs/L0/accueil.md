@@ -34,4 +34,4 @@ Le second chapitre aborde des problèmes juridiques concrets et contemporains (l
 
 ## Quizz
 
-<iframe src="https://profauda.fr/diaporamas/diapos/dgemc/quizz-intro.html" width="80%" height="450px" frameborder="0"></iframe>
+<iframe src="https://profauda.fr/diaporamas/diapos/dgemc/quizz-intro.html" width="90%" height="650px" frameborder="0"></iframe>
