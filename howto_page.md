@@ -77,7 +77,7 @@ Puis dans le fichier :
 
 #### youtube
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/pw0zH_JdHRY?si=_I_P_z2GWPr3GEQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/pw0zH_JdHRY?feature=oembed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 #### google
 

@@ -2,23 +2,9 @@
 sidebar_position: 1
 id: intro
 ---
-# Introduction
+# Introduction : la hiérarchie des normes
 
-### Qu'est-ce que le droit ?
-Ouvrir la [carte mentale sur le droit](https://profauda.fr/schemas/cartes/droit.html)
+![normes](/img/dgemc/normes.png)
 
-### Qu'est-ce que la justice ?
-Ouvrir la [carte mentale sur la justice](https://profauda.fr/schemas/cartes/justice.html)
 
-### Compléments
-
-:::danger[À visionner à la maison]
-:::
-
-#### La justice et le Droit
-
-<iframe width="800" height="450" src="https://www.youtube.com/embed/oBnaI_LTt7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-#### La désobéissance civile
-
-<iframe width="800" height="450" src="https://www.youtube.com/embed/mwTUX8cab1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="800" height="500" src="https://www.youtube.com/embed/GfnKO5VpNoA?feature=oembed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
